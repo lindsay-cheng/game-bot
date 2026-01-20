@@ -1,0 +1,30 @@
+# build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+
+# editor/system
+.DS_Store
+.vscode/
+.idea/
+
+# python virtualenv (used only to install cmake locally)
+.venv/
+__pycache__/
+*.pyc
+
+# c/c++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
